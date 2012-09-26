@@ -1,0 +1,35 @@
+ul#weather_information li {
+    list-style-type:none;
+    margin-left:0;
+    padding-left:0;
+}
+
+ul#weather_information{
+    margin-bototm:1em;
+}
+ul#weather_information li img,
+ul#weather_information li div.wi-info {
+    float:left;
+}
+
+ul#weather_information li div.wi-info {
+    margin-left:1em;
+}
+
+ul#weather_information:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+ul#weather_information li p {
+    margin:0;
+    line-height:1.5em;
+    font-size:1em;
+}
+
+ul#weather_information li p.currently {
+    font-weight:bold;
+}

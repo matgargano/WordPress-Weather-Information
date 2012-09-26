@@ -1,0 +1,18 @@
+.wi-error {
+    background-color: #FFEBE8;
+    border-color: #CC0000;
+    padding: 5px 5px;
+    margin: 5px 0 15px;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.wi-error span,
+.wi-error a {
+    font-weight:bold;
+}
+
+.wi-label {
+    margin-right:10px;
+}
