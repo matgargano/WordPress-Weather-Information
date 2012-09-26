@@ -10,7 +10,7 @@
 * v3 is easy to intergrate into CI as a library (renamed) + bug fixes
 **/
  
-class zipcode_validator {
+class Validate {
  
   /**
   * If an email is Valid it returns the parameter
@@ -128,4 +128,3 @@ class zipcode_validator {
 }
 /** End Validation **/
  
-
